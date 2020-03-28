@@ -39,6 +39,7 @@ now take the modified array and make sure array dosen't start from 0
 then convert array back into integer
 //
 
+
 Code:
 
 s=132
@@ -57,6 +58,7 @@ for i in range(len(a)-1):
 
 x=list(map(str(a),int))
 print(x)
+
 
 Output:
 
