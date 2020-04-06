@@ -1,0 +1,28 @@
+t = int(input())
+for x in range(1, t + 1):
+    n = int(input())
+    arr = []
+    k = 0
+    r = 0
+    c = 0
+    for _ in range(n):
+        arr.append(list(map(int, input().rstrip().split())))
+    res = list(zip(*arr))
+    for i in range(n):
+        k += arr[i][i]
+        arr[i].sort()
+        ss = sorted(res[i])
+
+
+        for j in range(n - 1):
+            if arr[i][j] == arr[i][j + 1]:
+                r += 1
+                break
+
+        for j in range(n-1):
+
+            if ss[j] == ss[j + 1]:
+                c += 1
+                break
+
+    print("Case #{}: {} {} {}".format(x, k, r, c), flush=True)  
