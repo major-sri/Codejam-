@@ -13,7 +13,6 @@ for x in range(1, t + 1):
         arr[i].sort()
         ss = sorted(res[i])
 
-
         for j in range(n - 1):
             if arr[i][j] == arr[i][j + 1]:
                 r += 1
