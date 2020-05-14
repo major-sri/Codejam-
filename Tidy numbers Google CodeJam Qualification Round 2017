@@ -3,6 +3,7 @@ Tatiana likes to keep things tidy. Her toys are sorted from smallest to largest,
 
 She just finished counting all positive integers in ascending order from 1 to N. What was the last tidy number she counted?
 
+
 Input
 The first line of the input gives the number of test cases, T. T lines follow. Each line describes a test case with a single integer N, the last number counted by Tatiana.
 
