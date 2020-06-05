@@ -2,8 +2,7 @@ T = int(input())
 for x in range(1, T + 1):
     N, B = map(int, input().split())
     S = map(int, input().split())
-    S = sorted(S)
-    
+    S = sorted(S) 
     c=0
     y=0
     for i in range(0,N):
